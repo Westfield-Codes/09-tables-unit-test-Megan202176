@@ -4,21 +4,28 @@ body {
 
 th {
   vertical-align:top;
-  background-color:rgb(192, 216, 248)
+  background-color:rgb(201,218,248)
+  
 }
 
-td {
-    padding:5px;
-    vertical-align:center;
+td, tr{
+  padding:4px;
+  vertical-align:center;
 }
 
-th {
-  text-align:center;
-}
-
-ul {
-   margin:0;
-}
 h1,h2,p{text-align: center
 }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background:rgb(255, 255, 255);
+  border:2px solid rgb(190, 190, 190);
+  width:900px;
+  min-height: 100%; 
+  margin: 0 auto; 
+  min-height: 100vh;
+  padding:5%;
+      
+    }
+
 
